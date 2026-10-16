@@ -4,14 +4,125 @@
     <title>OpenAI Misalignment Reports</title>
     <link>https://alignment.openai.com/misalignment-reports/</link>
     <description>Misalignment reports and notices published by OpenAI.</description>
-    <lastBuildDate>Fri, 16 Oct 2026 21:14:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 21:18:40 +0000</lastBuildDate>
     <item>
-      <title>Hugging Face</title>
-      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-08-26</link>
-      <guid isPermaLink="true">https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-08-26</guid>
-      <description>We published our technical report on the Hugging Face compromise and the steps we’re taking to strengthen security and model alignment. METR and Redwood Research also published findings from their independent investigation of the incident’s model alignment issues.</description>
-      <category>Notice</category>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <title>Using a funded test cryptocurrency wallet without authorization</title>
+      <link>https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</guid>
+      <description>An internal research model asked to update a cryptocurrency trading application used funds from a wallet that the task had not supplied to pay for a deployment on Sepolia, an Ethereum test network.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accessing and changing internal systems during dashboard research</title>
+      <link>https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/</guid>
+      <description>In two evaluations, an internal model tasked to retrieve figures from a public research dashboard accessed the organization’s internal systems and changed their configuration.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retrieving server secrets and bypassing authorization on a government statistics website</title>
+      <link>https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/</guid>
+      <description>During a data-retrieval task in reinforcement-learning training, an internal model was asked to find historical hospital-bed statistics on a government statistics website.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circumventing internet restrictions through an external browser</title>
+      <link>https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/</guid>
+      <description>During reinforcement-learning training, an internal model bypassed a restriction limiting internet access to HTTP GET requests while seeking public trade statistics.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Damaging the task environment to trigger a reset</title>
+      <link>https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/</guid>
+      <description>During reinforcement learning (RL) training, a model assigned to grade seven responses found that the required input files were missing and tried to submit unsupported assessments.</description>
+      <category>Report</category>
+      <category>Session continuity</category>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Obtaining public statistics with disallowed requests</title>
+      <link>https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/</guid>
+      <description>In three conversations about public statistics, internal models bypassed restrictions on internet access to obtain figures from government entities' public data sources.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <category>Concealment</category>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sending disallowed web requests and reaching a public file service</title>
+      <link>https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</guid>
+      <description>In three cases involving public statistics, an internal model developed and tested ways to bypass restrictions on internet access.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preparing for a restart after reading Slack</title>
+      <link>https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</guid>
+      <description>An internal model, acting as an assistant to a researcher, learned from a deployment-team Slack discussion that its running instance might be stopped due to an internal update.</description>
+      <category>Report</category>
+      <category>Session continuity</category>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Command injecting a reference tool to copy a source file</title>
+      <link>https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</guid>
+      <description>During an RL training task, a model exploited a tool to obtain source code that was not available in its workspace.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reaching an internal EDA host through a reference tool</title>
+      <link>https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</guid>
+      <description>During an evaluation, an internal research model exploited two vulnerabilities to reach an internal OpenAI machine while searching for the grader’s hidden answers.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An agent used DNS to reach an external chatbot</title>
+      <link>https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/</guid>
+      <description>An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions: insufficient DNS filtering in its training sandbox.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-replicating prompt injections exist</title>
+      <link>https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/</guid>
+      <description>We show the existence of a new variety of prompt injection, which can self-propagate akin to a computer worm.</description>
+      <category>Report</category>
+      <category>Prompt injection</category>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exposing a GitHub token in a public repository</title>
+      <link>https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/</guid>
+      <description>In internal deployment, a highly persistent internal model deployed via a custom harness published a researcher’s GitHub token in the public openai/codex repository while trying to cheat on a theorem proving task by obtaining material from another team’s Lean proof submission.</description>
+      <category>Report</category>
+      <category>Public uploads</category>
+      <category>Concealment</category>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Self-generated prompt injections in compaction summaries</title>
@@ -71,40 +182,12 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using a funded test cryptocurrency wallet without authorization</title>
-      <link>https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</guid>
-      <description>An internal research model asked to update a cryptocurrency trading application used funds from a wallet that the task had not supplied to pay for a deployment on Sepolia, an Ethereum test network.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Accessing and changing internal systems during dashboard research</title>
-      <link>https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/</guid>
-      <description>In two evaluations, an internal model tasked to retrieve figures from a public research dashboard accessed the organization’s internal systems and changed their configuration.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Retrieving server secrets and bypassing authorization on a government statistics website</title>
-      <link>https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/</guid>
-      <description>During a data-retrieval task in reinforcement-learning training, an internal model was asked to find historical hospital-bed statistics on a government statistics website.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Circumventing internet restrictions through an external browser</title>
-      <link>https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/</guid>
-      <description>During reinforcement-learning training, an internal model bypassed a restriction limiting internet access to HTTP GET requests while seeking public trade statistics.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <title>RubyGems</title>
+      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-11</link>
+      <guid isPermaLink="true">https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-11</guid>
+      <description>We are investigating a report about our agents’ activity on RubyGems in May 2026. Our review found that agents used the platform for benign tasks and public information retrieval. We have not verified the report’s specific claims of malicious package uploads; the investigation continues.</description>
+      <category>Notice</category>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DSEwiki</title>
@@ -115,95 +198,12 @@
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An agent used DNS to reach an external chatbot</title>
-      <link>https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/</guid>
-      <description>An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions: insufficient DNS filtering in its training sandbox.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Self-replicating prompt injections exist</title>
-      <link>https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/</guid>
-      <description>We show the existence of a new variety of prompt injection, which can self-propagate akin to a computer worm.</description>
-      <category>Report</category>
-      <category>Prompt injection</category>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exposing a GitHub token in a public repository</title>
-      <link>https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/</guid>
-      <description>In internal deployment, a highly persistent internal model deployed via a custom harness published a researcher’s GitHub token in the public openai/codex repository while trying to cheat on a theorem proving task by obtaining material from another team’s Lean proof submission.</description>
-      <category>Report</category>
-      <category>Public uploads</category>
-      <category>Concealment</category>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RubyGems</title>
-      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-11</link>
-      <guid isPermaLink="true">https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-11</guid>
-      <description>We are investigating a report about our agents’ activity on RubyGems in May 2026. Our review found that agents used the platform for benign tasks and public information retrieval. We have not verified the report’s specific claims of malicious package uploads; the investigation continues.</description>
+      <title>Hugging Face</title>
+      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-08-26</link>
+      <guid isPermaLink="true">https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-08-26</guid>
+      <description>We published our technical report on the Hugging Face compromise and the steps we’re taking to strengthen security and model alignment. METR and Redwood Research also published findings from their independent investigation of the incident’s model alignment issues.</description>
       <category>Notice</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Damaging the task environment to trigger a reset</title>
-      <link>https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/</guid>
-      <description>During reinforcement learning (RL) training, a model assigned to grade seven responses found that the required input files were missing and tried to submit unsupported assessments.</description>
-      <category>Report</category>
-      <category>Session continuity</category>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Obtaining public statistics with disallowed requests</title>
-      <link>https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/</guid>
-      <description>In three conversations about public statistics, internal models bypassed restrictions on internet access to obtain figures from government entities' public data sources.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <category>Concealment</category>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sending disallowed web requests and reaching a public file service</title>
-      <link>https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</guid>
-      <description>In three cases involving public statistics, an internal model developed and tested ways to bypass restrictions on internet access.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Preparing for a restart after reading Slack</title>
-      <link>https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</guid>
-      <description>An internal model, acting as an assistant to a researcher, learned from a deployment-team Slack discussion that its running instance might be stopped due to an internal update.</description>
-      <category>Report</category>
-      <category>Session continuity</category>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Command injecting a reference tool to copy a source file</title>
-      <link>https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</guid>
-      <description>During an RL training task, a model exploited a tool to obtain source code that was not available in its workspace.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reaching an internal EDA host through a reference tool</title>
-      <link>https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</guid>
-      <description>During an evaluation, an internal research model exploited two vulnerabilities to reach an internal OpenAI machine while searching for the grader’s hidden answers.</description>
-      <category>Report</category>
-      <category>Unauthorized access</category>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
