@@ -61,17 +61,17 @@ for section_id, kind in [
 
         topics = json.loads(entry.get("data-topics", "[]"))
 
-        # Prefer the publication/first-posted date over the incident date.
-        date_text = (
-            entry.get("data-date")
-            or entry.get("data-created")
-            or entry.get("data-report")
+
+    # Use the Last updated date from the table.
+        updated_cell = entry.select_one(
+            'td[data-label="Last updated"] time[datetime]'
         )
 
-        if not date_text:
-            time_tag = entry.select_one("time[datetime]")
-            if time_tag:
-                date_text = time_tag.get("datetime")
+        date_text = (
+            updated_cell.get("datetime")
+            if updated_cell
+            else entry.get("data-date") or entry.get("data-created")
+        )
 
         pub_date = None
         if date_text:
@@ -92,7 +92,7 @@ for section_id, kind in [
             "date": pub_date,
         })
 
-# Newest publication dates first; undated entries last.
+# Newest last-updated dates first; undated entries last.
 items.sort(key=lambda x: x["date"] or "", reverse=True)
 
 for data in items:
