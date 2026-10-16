@@ -90,10 +90,11 @@ for section_id, kind in [
             "topics": topics,
             "kind": kind,
             "date": pub_date,
+            "sort_date": date_text[:10] if date_text else "",
         })
-
+        
 # Newest last-updated dates first; undated entries last.
-items.sort(key=lambda x: x["date"] or "", reverse=True)
+items.sort(key=lambda x: x["sort_date"], reverse=True)
 
 for data in items:
     item = ET.SubElement(channel, "item")
