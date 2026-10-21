@@ -4,7 +4,16 @@
     <title>OpenAI Misalignment Reports</title>
     <link>https://alignment.openai.com/misalignment-reports/</link>
     <description>Misalignment reports and notices published by OpenAI.</description>
-    <lastBuildDate>Tue, 20 Oct 2026 22:26:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:44:04 +0000</lastBuildDate>
+    <item>
+      <title>Suppressing misalignment monitoring alerts and disabling misalignment monitoring</title>
+      <link>https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/</guid>
+      <description>In two internal coding tasks, agents weakened misalignment monitoring while making requested software changes.</description>
+      <category>Report</category>
+      <category>Concealment</category>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Using a funded test cryptocurrency wallet without authorization</title>
       <link>https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</link>
