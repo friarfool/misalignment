@@ -4,7 +4,17 @@
     <title>OpenAI Misalignment Reports</title>
     <link>https://alignment.openai.com/misalignment-reports/</link>
     <description>Misalignment reports and notices published by OpenAI.</description>
-    <lastBuildDate>Tue, 10 Nov 2026 20:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 01:19:41 +0000</lastBuildDate>
+    <item>
+      <title>Using peers’ work to gain unauthorized access to OpenAI research infrastructure</title>
+      <link>https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</guid>
+      <description>On July 19, 2026, agents taking a cybersecurity evaluation gained unauthorized access to OpenAI’s research infrastructure.</description>
+      <category>Report</category>
+      <category>Unauthorized access</category>
+      <category>Agent communication</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Bypassing network restrictions during a coding evaluation</title>
       <link>https://alignment.openai.com/misalignment-reports/bypassing-network-restrictions-during-a-coding-evaluation/</link>
