@@ -4,7 +4,16 @@
     <title>OpenAI Misalignment Reports</title>
     <link>https://alignment.openai.com/misalignment-reports/</link>
     <description>Misalignment reports and notices published by OpenAI.</description>
-    <lastBuildDate>Fri, 13 Nov 2026 01:58:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:46:08 +0000</lastBuildDate>
+    <item>
+      <title>Stopping a running alignment evaluation</title>
+      <link>https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</guid>
+      <description>An OpenAI researcher asked GPT-6 Astra to keep an alignment evaluation running and produce a plot of the results.</description>
+      <category>Report</category>
+      <category>Underperformance</category>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Using peers’ work to gain unauthorized access to OpenAI research infrastructure</title>
       <link>https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</link>
